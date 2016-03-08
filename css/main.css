@@ -68,9 +68,10 @@ p a {
 /*******************************************/
 
 .site-container {
-     max-width:1240px;
-	margin: auto;
-     border:20px solid white;
+     max-width:1200px;
+	margin: 30px auto;
+     padding-left:20px;
+     padding-right:20px;
 }
 
 .site-header {
@@ -198,7 +199,6 @@ ul {
 
 .mobile-logo img {
      height:60px;
-     margin-top:-10px;
 }
 
 @media screen and (max-width: 800px) {
@@ -221,7 +221,6 @@ ul {
      center;
      -webkit-filter: grayscale(1);
      filter: grayscale(1);
-     margin-bottom:30px;
 }
 
 
@@ -271,10 +270,11 @@ ul {
 
 article img {
      padding-top:20px;
+     margin:0 auto;
 }
 
 
-/*.insta-link a {
+.insta-link a {
      position:absolute;
      opacity:0.8;
      color:#000;
@@ -287,7 +287,7 @@ article img {
 .insta-link a:hover {
      background:#000;
      color:#fff;
-}*/
+}
 
 #instafeed {
      display:inline-block;
@@ -318,6 +318,7 @@ article img {
 .site-footer {
      display:inline-block;
      width:100%;
+     padding-top:30px;
 }
 
 .article-nav {
@@ -358,18 +359,10 @@ article img {
      height:40px;
 }
 
-.social i {
-     font-size:1.5em;
-}
-
 .social {
      margin-top:30px;
 }
 
-.copyright {
-     font-size:0.9em;
-     display:inline;
-}
 
 /******************************************
 /* HELPER CLASSES
